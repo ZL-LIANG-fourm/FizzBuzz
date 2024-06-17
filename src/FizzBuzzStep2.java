@@ -5,19 +5,14 @@ public class FizzBuzzStep2 {
 		if (i > max) {
 			return;
 		}
-		if ((i % 3 ==0 )&& (i %5 ==0)) {
-//			System.out.println("FizzBuzz");
-			System.out.println(i);
-		} else if ((i % 3 ==0 )) {
-//			System.out.println(i+" Fizz");
-			System.out.println(i);
-			
-		} else if ((i %5 ==0)) {
-			System.out.println(i +" Buzz");
-//			System.out.println(i);
-		}else {
-			System.out.println(i);
+		System.out.print(i);
+		if ((i % 3 ==0 )) {
+			System.out.print(" Fizz");
+		} 
+		if ((i %5 ==0)) {
+			System.out.print(" Buzz");
 		}
+		System.out.print("\n");	
 		i = i + 1;
 		fizzbuzz(max, i);
 	}
