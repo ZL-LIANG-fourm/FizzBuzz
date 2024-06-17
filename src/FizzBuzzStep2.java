@@ -9,11 +9,12 @@ public class FizzBuzzStep2 {
 //			System.out.println("FizzBuzz");
 			System.out.println(i);
 		} else if ((i % 3 ==0 )) {
-			System.out.println(i+" Fizz");
+//			System.out.println(i+" Fizz");
+			System.out.println(i);
 			
 		} else if ((i %5 ==0)) {
-//			System.out.println("Buzz");
-			System.out.println(i);
+			System.out.println(i +" Buzz");
+//			System.out.println(i);
 		}else {
 			System.out.println(i);
 		}
